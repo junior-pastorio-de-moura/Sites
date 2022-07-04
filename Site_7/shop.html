@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KatanaStorm</title>
+    <meta name="author" content="Júnior Pastório de Moura">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/806e29ae4c.js" crossorigin="anonymous"></script>
+<style>
+    *{
+        box-sizing: border-box;
+        font-size: 18px;
+    }
+    html, body{
+        width: 100%;
+    }
+    #container {
+        width: 100%;
+        max-width: 1200px;
+    }
+    main{
+        width: 100%;
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 15px 15px;
+    }
+    section{
+        width: 300px;
+        box-shadow:  2px 2px 2px #cecece;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+        padding-bottom: 8px;
+    }
+    section:hover{
+        box-shadow:  4px 4px 5px #cecece;
+    }
+    section img{
+        width: 100%;
+    }
+    section h3{
+        color: rgb(133, 131, 131);
+        margin-top: 8px;
+        padding: 8px;
+    }
+    section div{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    section div img{
+        height: 85px;
+        width: 100px;
+        margin-right: 8px;
+    }
+    section p{
+        color: green;
+        font-weight: bold;
+        margin-top: 8px;
+        margin-left: 0;
+        padding-left: 0;
+        cursor: pointer;
+    }
+    section p:hover{
+        text-decoration: underline;
+    }
+    section button{
+        padding: 5px 15px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 1px #cecece;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+    section button:hover{
+        background-color: salmon;
+    }
+    section small{
+        color: #979797;
+        font-size: 0.8rem;
+    }
+    section img{
+        max-height: 20vh;
+    }
+    .recentes{
+        width: 100%;
+        text-align: left;
+    }
+    h4{
+        width: 50%;
+        text-align: left;
+        margin: 15px;
+        font-size: 1.6rem;
+        color: #7a7979;
+        background-color: #eee;
+        padding: 8px 15px;
+        border-radius: 5px;
+    }
+    @media (max-width: 800px) {
+        main{
+            display: flex;
+            flex-direction: column;
+        }
+        main section {
+            width: 300px;
+            margin: 15px auto;
+        }
+    }
+    @media (max-width: 450px){
+        main section {
+            width: 300px;
+        }
+    }
+</style>
+</head>
+<body>
+    <div id="container">
+        <a class=".btn-topo" href="#scrool"><img class="btn-topo" src="./icones/guardachuva.jpg" alt=""></a>
+        <header id="scrool">
+            <img src="./imagens/logoespada.webp" alt="imagem de logo">
+            <h1>KATANASTORM</h1>
+
+           <div class="submit-line">
+            <form action="">
+            <input type="text" />
+            <button class="submit-lente" type="submit">
+                <img src="./icones/lupa.png" alt="">
+            </button>
+            </form>
+            </div>
+        </header>
+        <nav>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <!--<li><a href="">CADASTRO</a></li>-->
+            <li><a href="login.html">LOGIN</a></li>
+        </nav>
+        <main>
+            <section>
+                <img src="./imagens/produto2.webp" alt="">
+                <h3>Katana Tomioka Giyuu Demons Slayer Com Bainha 95cm</h3>
+                <p>
+                    R$: 140,00;
+                </p>
+                <button>COMPRAR</button>
+                <div>
+                    <img src="./icones/estrelas.webp" alt="5 estrelas">
+                    <small>340 vendidos</small>
+                </div>
+                <small>Florianópolis - SC</small>
+            </section>
+
+             <section>
+                <img src="./imagens/produto3.webp" alt="">
+                <h3>Katana Tanjiro Demons Slayer</h3>
+                <p>
+                    R$: 160,00;
+                </p>
+                <button>COMPRAR</button>
+                <div>
+                    <img src="./icones/estrelas.webp" alt="5 estrelas">
+                    <small>210 vendidos</small>
+                </div>
+                <small>Tubarão - SC</small>
+            </section>
+             <section>
+                <img src="./imagens/prduto5.webp" alt="">
+                <h3>Katana Dragão dourado Aço T10 Com Fio de Corte</h3>
+                <p>
+                    R$: 2100,00;
+                </p>
+                <button>COMPRAR</button>
+                <div>
+                    <img src="./icones/estrelas.webp" alt="5 estrelas">
+                    <small>40 vendidos</small>
+                </div>
+                <small>Floripa - SC</small>
+            </section>
+             <section>
+                <img src="./imagens/produto4.webp" alt="">
+                <h3>Katana Shirasaya Samurai Japonês</h3>
+                <p>
+                    R$: 820,00;
+                </p>
+                <button>COMPRAR</button>
+                <div>
+                    <img src="./icones/estrelas.webp" alt="5 estrelas">
+                    <small>130 vendidos</small>
+                </div>
+                <small>Porto Alegre - RS</small>
+            </section>
+             <section>
+                <img src="./imagens/produto6.jpg" alt="">
+                <h3>Katana B2 Nier Automata 95cm</h3>
+                <p>
+                    R$: 782,34;
+                </p>
+                <button>COMPRAR</button>
+                <div>
+                    <img src="./icones/estrelas.webp" alt="5 estrelas">
+                    <small>225 vendidos</small>
+                </div>
+                <small>Gramado - RS</small>
+            </section>
+             <section>
+                <img src="./imagens/produto7.jpg" alt="">
+                <h3>Katana Living Morto com bainha</h3>
+                <p>
+                    R$: 422,50;
+                </p>
+                <button>COMPRAR</button>
+                <div>
+                    <img src="./icones/estrelas.webp" alt="5 estrelas">
+                    <small>554 vendidos</small>
+                </div>
+                <small>Florianópolis - SC</small>
+            </section>
+             <section>
+                <img src="./imagens/produto1.jpg" alt="">
+                <h3>Katana Dragão Branco</h3>
+                <p>
+                    R$: 970,62;
+                </p>
+                <button>COMPRAR</button>
+                <div>
+                    <img src="./icones/estrelas.webp" alt="5 estrelas">
+                    <small>402 vendidos</small>
+                </div>
+                <small>São Paulo - SP</small>
+            </section>
+             <section>
+                <img src="./imagens/produto8.webp" alt="">
+                <h3>Katana Preta Maduráh</h3>
+                <p>
+                    R$: 1304,20;
+                </p>
+                <button>COMPRAR</button>
+                <div>
+                    <img src="./icones/estrelas.webp" alt="5 estrelas">
+                    <small>201 vendidos</small>
+                </div>
+                <small>Prto Alegre - RS</small>
+            </section>
+
+        </main>
+        <footer>
+               <ul class="list1">
+                   <li><a target="_blank" href="termos.html">Termos e condições</a></li>
+                   <li><a target="_blank" href="politicas.html">Políticas de privacidade</a></li>
+               </ul>         
+               <img src="./imagens/siteseguro.jpeg" alt="">
+               <div class="pe1">
+                   <h3>MÍDIAS</h3>
+                   <ul class="list2">
+                   <li><a target="_blank" href="https://pt-br.facebook.com/login/device-based/regular/login/"><img src="./icones/face.png" alt=""></a></li>
+                   <li><a target="_blank" href="https://www.instagram.com/"><img src="./icones/intagram.png" alt=""></a></li>
+                   <li><a target="_blank" href="https://www.whatsapp.com/?lang=pt_br"><img src="./icones/whats.png" alt=""></a></li>
+                   <li><a target="_blank" href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoicHQifQ%3D%3D%22%7D"><img src="./icones/twitter.png" alt=""></a></li>
+               </ul>
+               </div>
+               <small>&copy; Todos os direitos reservados - 2022</small>
+        </footer>
+    </div>
+</body>
+</html>
